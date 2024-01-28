@@ -1,0 +1,53 @@
+<html>
+<head>
+<meta name="viewport" content =" width= device-width , initial-scale =1.0">
+<title>My Portfolio Website</title>
+<link rel="stylesheet" href="minepa.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+
+<body>
+<section class ="header">
+ <nav>
+   <a href ="mine.html"><img src="file:///Users/prachiarya/Desktop/images/logofinal-min.png"></a>
+   <div class="nav-links" id="navLinks">
+   <i class="fa fa-times" onclick="hideMenu()"></i>
+    <ul>
+     <li><a href="mine.html">HOME</a></li>
+     <li><a href="about.html">ABOUT</a></li>
+     <li><a href="hobby1.html">HOBBY 1</a></li>
+     <li><a href="hobby2.html">HOBBY 2</a></li>
+     <li><a href="hobby3.html">HOBBY 3</a></li>
+     <li><a href="mine2.html">CONTACT</a></li>
+    </ul>
+   </div>
+   <i class="fa fa-bars" onclick="showMenu()"></i>
+ </nav>
+ <div class="sketch">
+<h1>✿ Sketching ✿</h1> 
+<p> In the field of sketching I am still a beginner, however, I find joy in every stroke and take delight in the simple yet magical act of bringing images to life on paper.<br>
+Even in the vast domain of sketching , I particularly connect with cartooning.<br>
+I believe cartooning allows me to express the playful and childlike side of my personality.The vibrant colours, exaggerated features and whimsical characters provide  a creative outlet for self- expression.
+<br>It always amazes me how one can express complex narratives through cartooning in a such a simple manner.<br>Sometimes it also becomes a way for me to escape the reality and becomes my another source of joy.
+<br>To me, sketching has a therapeutic value.  The act of drawing is a meditative process ,offering me a way to relax, relieve stress and channel emotions into a creative and positive endeavour.
+<br><b><i>Sketching is like my personal canvas where imagination meets expression, creating endless possibilities with every stroke.
+</p>
+</div>
+</section>
+
+<script>
+var navLinks = document.getElementById("navLinks");
+function showMenu(){
+navLinks.style.right="0";
+}
+function hideMenu(){
+navLinks.style.right="-200px";
+}
+</script>
+
+
+</body>
+</html>

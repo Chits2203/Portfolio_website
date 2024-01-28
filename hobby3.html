@@ -1,0 +1,54 @@
+<html>
+<head>
+<meta name="viewport" content =" width= device-width , initial-scale =1.0">
+<title>My Portfolio Website</title>
+<link rel="stylesheet" href="minepa.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+
+<body>
+<section class ="header">
+ <nav>
+   <a href ="mine.html"><img src="file:///Users/prachiarya/Desktop/images/logofinal-min.png"></a>
+   <div class="nav-links" id="navLinks">
+   <i class="fa fa-times" onclick="hideMenu()"></i>
+    <ul>
+     <li><a href="mine.html">HOME</a></li>
+     <li><a href="about.html">ABOUT</a></li>
+     <li><a href="hobby1.html">HOBBY 1</a></li>
+     <li><a href="hobby2.html">HOBBY 2</a></li>
+     <li><a href="hobby3.html">HOBBY 3</a></li>
+     <li><a href="mine2.html">CONTACT</a></li>
+    </ul>
+   </div>
+   <i class="fa fa-bars" onclick="showMenu()"></i>
+ </nav>
+<div class="music">
+<h1>✿ Listening to Music ✿</h1>
+<p>Music holds such a special place in my heart that it's no more just a hobby - it's a soul-soothing experience that adds color, rhythm and harmony to every aspect of my life.
+<br>Listening to music is my sanctuary - a moment of pause in the hustle and bustle of everyday life. It's during these quiet interludes that i find solace,
+reflection, and a sense of connection with myself and the world around me. Music actually becomes the soundtrack of my thoughts and guides me through the highs and lows of life 
+with unwavering companionship.<br>It has the power to evoke a number of emotions within me, some which i have never felt in my life.<br>Every time i put on music, it shuts down the 
+outside cacophony and calms down the uneasiness of my heart and lets me focus on what actually needs to be focused upon.
+<br>Sometimes lyrics give words to my feelings whenever i struggle in figuring out my emotions.It seems to me that my varied interest in music can show my eclectic personality.
+<br><b><i>Music isn't just some pastime  its a big part of who I am, shaping my life with its rhythm and melody.
+</p>
+</div>
+</section>
+
+<script>
+var navLinks = document.getElementById("navLinks");
+function showMenu(){
+navLinks.style.right="0";
+}
+function hideMenu(){
+navLinks.style.right="-200px";
+}
+</script>
+
+
+</body>
+</html>

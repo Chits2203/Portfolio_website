@@ -1,0 +1,52 @@
+<html>
+<head>
+<meta name="viewport" content =" width= device-width , initial-scale =1.0">
+<title>My Portfolio Website</title>
+<link rel="stylesheet" href="minepa.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+
+<body>
+<section class ="header">
+ <nav>
+   <a href ="mine.html"><img src="file:///Users/prachiarya/Desktop/images/logofinal-min.png"></a>
+   <div class="nav-links" id="navLinks">
+   <i class="fa fa-times" onclick="hideMenu()"></i>
+    <ul>
+     <li><a href="mine.html">HOME</a></li>
+     <li><a href="about.html">ABOUT</a></li>
+     <li><a href="hobby1.html">HOBBY 1</a></li>
+     <li><a href="hobby2.html">HOBBY 2</a></li>
+     <li><a href="hobby3.html">HOBBY 3</a></li>
+     <li><a href="mine2.html">CONTACT</a></li>
+    </ul>
+   </div>
+   <i class="fa fa-bars" onclick="showMenu()"></i>
+ </nav>
+<div class="abt">
+<a href="about.html"><img src="file:///Users/prachiarya/Desktop/images/Cartoonify-3.png"></a>
+<h1>✿ About Me ✿</h1>
+<p>Hello there! I'm Prachi Arya ,a passionate beginner in the world of web development.
+<br>I am an eighteen-year-old tech undergrad freshie in the domain of Civil Engineering currently enrolled at<br> IIT Bombay, Mumbai.
+<br>Despite the domain I am currently majoring in, I'm passionate about the vast and exciting realm of technology and learning the ropes of web development.
+<br>Besides coding, I also enjoy dancing, sketching and listening to music.Here's a brief overview about my hobbies.You can navigate through the various sections via the navigation menu.
+<br>I'm always eager to connect with fellow developers ,tech enthusiasts or anyone passionate about the web. <br><b><i>Lets learn and grow together!</p>
+</div>
+</section>
+
+<script>
+var navLinks = document.getElementById("navLinks");
+function showMenu(){
+navLinks.style.right="0";
+}
+function hideMenu(){
+navLinks.style.right="-200px";
+}
+</script>
+
+
+</body>
+</html>
